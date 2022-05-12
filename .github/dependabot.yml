@@ -1,8 +1,8 @@
-version: 1
+version: 2
 
-update_configs:
-- package_manager: "submodules"
-  directory: .
+update:
+- package-ecosystem: "submodules"
+  directory: "/"
   schedule: 
     interval: "daily"
     time: "03:05"
