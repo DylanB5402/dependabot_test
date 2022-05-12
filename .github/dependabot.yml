@@ -1,0 +1,8 @@
+version: 1
+
+update_configs:
+- package_manager: "submodules"
+  directory: .
+  schedule: 
+    interval: "daily"
+    time: "03:05"
